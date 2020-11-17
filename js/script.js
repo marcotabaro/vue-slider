@@ -11,3 +11,4 @@ La generazione di elementi dinamica, dipendente dallo stato dell'applicazione (i
 Gli eventi associati agli elementi dell'interfaccia vengono catturati lato HTML con le direttive che iniziano con v-on:{nome-evento} o @{nome-evento} e associati ad una delle funzioni (dichiarate in methods) definita durante l'inizializzazione di Vue
 Gli attributi degli elementi che devono cambiare in accordo con lo stato dell'applicazione (inizializzato in data) devono essere dichiarati lato HTML con la direttiva v-bind:{nome-attributo} o :{nome-attributo}
 */
+
