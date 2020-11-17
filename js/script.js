@@ -23,7 +23,7 @@ const slider = new Vue ({
             if(this.index === 0){
                 this.index = this.images.length - 1;
             } else {
-                this.index = 0;
+                this.index--;
             }
             console.log(this.index);
         },
