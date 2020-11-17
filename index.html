@@ -14,7 +14,7 @@
     <title></title>
 </head>
 <body>
-    <div class="container d-flex justify-content-center align-items-center">
+    <div id='mySlider' class="container d-flex justify-content-center align-items-center">
         <div class="col-2 d-flex justify-content-center align-items-center">
             <a href="#" @click= 'prevImg'>
                 <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-bar-left" fill="black" xmlns="http://www.w3.org/2000/svg">
@@ -32,6 +32,9 @@
                   </svg>
             </a>
         </div>
+    </div>
+    <div class="shortcut d-flex justify-content-center align-items-center" v-for="n in 3">
+        <img v-bind:src="`img/${n}.jpg`">
     </div>
 
 

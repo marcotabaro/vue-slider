@@ -6,3 +6,8 @@
     height: 350px;
     width: 550px;
 }
+
+.shortcut > img {
+    height: 80px;
+    width: 150px;
+}

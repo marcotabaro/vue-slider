@@ -13,9 +13,9 @@ Gli attributi degli elementi che devono cambiare in accordo con lo stato dell'ap
 */
 
 const slider = new Vue ({
-    el: '.container',
+    el: '#mySlider',
     data: {
-        images : ['img/image1.jpg', 'img/image2.jpg', 'img/image3.jpg', 'img/image4.jpg',],
+        images : ['img/1.jpg', 'img/2.jpg', 'img/3.jpg', 'img/4.jpg'],
         index:0
     },
     methods: {
