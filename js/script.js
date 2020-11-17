@@ -12,3 +12,10 @@ Gli eventi associati agli elementi dell'interfaccia vengono catturati lato HTML 
 Gli attributi degli elementi che devono cambiare in accordo con lo stato dell'applicazione (inizializzato in data) devono essere dichiarati lato HTML con la direttiva v-bind:{nome-attributo} o :{nome-attributo}
 */
 
+const slider = new Vue ({
+    el: '.slider',
+    data: {
+        imgSrc: images,
+        index:0
+    }
+})

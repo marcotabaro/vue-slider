@@ -1,0 +1,8 @@
+.slider > img {
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    border: 3px solid lightgrey;
+    height: 350px;
+    width: 550px;
+}
