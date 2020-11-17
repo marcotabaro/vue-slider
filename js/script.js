@@ -37,3 +37,12 @@ const slider = new Vue ({
         }
     }
 })
+
+const short = new Vue ({
+    el: '.shortcut',
+    methods: {
+        focusImg: function(el){
+            this.index = el.getAttribute('value');
+        }
+    }
+})
