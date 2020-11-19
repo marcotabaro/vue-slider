@@ -3,8 +3,8 @@
     margin: 0;
     border-radius: 10px;
     border: 3px solid lightgrey;
-    height: 350px;
-    width: 550px;
+    height: 250px;
+    width: 450px;
 }
 
 .shortcut > img {
@@ -16,7 +16,7 @@
 }
 
 .opacity-reset {
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 .shortcut > img:hover {
