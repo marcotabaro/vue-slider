@@ -15,7 +15,7 @@
 </head>
 <body>
     <div id='mySlider' class="container">
-        <div class="row d-flex justify-content-center align-items-center">
+        <div class="row">
             <div class="col-2 d-flex justify-content-center align-items-center">
                 <a href="#" @click= 'prevImg'>
                     <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-bar-left" fill="black" xmlns="http://www.w3.org/2000/svg">
@@ -23,7 +23,7 @@
                       </svg>
                 </a>
             </div>
-            <div class="slider col-12 d-flex justify-content-center align-items-center">
+            <div class="slider col-8 d-flex justify-content-center align-items-center">
                 <img :src="images[index]" alt="">
             </div>
             <div class="col-2 d-flex justify-content-center align-items-center">
@@ -34,9 +34,9 @@
                 </a>
             </div>
         </div>
-        <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-12">
-                <ul>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <ul class='shortcutList'>
                     <li 
                     v-for='image in images' 
                     class="shortcut d-flex justify-content-center align-items-center">

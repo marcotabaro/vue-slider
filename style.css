@@ -22,3 +22,7 @@
 .shortcut > img:hover {
     opacity: 1;
 }
+
+.shortcutList {
+    display: inline-flex;
+}
