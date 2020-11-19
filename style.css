@@ -25,4 +25,5 @@
 
 .shortcutList {
     display: inline-flex;
+    padding: 0;
 }

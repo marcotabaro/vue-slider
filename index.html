@@ -30,7 +30,7 @@
                 <a href="#" @click= 'nextImg'>
                     <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-bar-right" fill="black" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8zm-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5z"/>
-                      </svg>
+                    </svg>
                 </a>
             </div>
         </div>
@@ -38,9 +38,9 @@
             <div class="col-12 d-flex justify-content-center align-items-center">
                 <ul class='shortcutList'>
                     <li 
-                    v-for='image in images' 
+                    v-for='(image, myIndex) in images' 
                     class="shortcut d-flex justify-content-center align-items-center">
-                        <img :src= "image"/>
+                    <img @click='myIndex = index' :src= "image" />
                     </li>
                 </ul>
             </div>
@@ -52,8 +52,3 @@
 <script src="js/script.js"></script>
 </body>
 </html>
-<!-- 
-src="img/1.jpg" alt="" value='1' @click='focusImg(this)'>
-        <img src="img/2.jpg" alt="" value='2' @click='focusImg(this)'>
-        <img src="img/3.jpg" alt="" value='3' @click='focusImg(this)'>
-        <img src="img/4.jpg" alt="" value='4' @click='focusImg(this)'> -->
